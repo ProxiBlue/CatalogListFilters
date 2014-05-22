@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ProxiBlue_CatalogListFilters>
+            <version>1.0.0</version>
+        </ProxiBlue_CatalogListFilters>
+    </modules>
+    <global>
+        <models>
+            <proxiblue_cataloglistfilters>
+                <class>ProxiBlue_CatalogListFilters_Model</class>
+            </proxiblue_cataloglistfilters>
+        </models>
+    </global>
+    <frontend>
+	<events>
+	    <core_block_abstract_prepare_layout_before>
+		<observers>
+		    <proxiblue_cataloglistfilters_core_block_abstract_prepare_layout_before>
+			<class>proxiblue_cataloglistfilters/observer</class>
+			<method>core_block_abstract_prepare_layout_before</method>
+		    </proxiblue_cataloglistfilters_core_block_abstract_prepare_layout_before>
+		</observers>
+	    </core_block_abstract_prepare_layout_before>
+	</events>
+    </frontend>
+</config>

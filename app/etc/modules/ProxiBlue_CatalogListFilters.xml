@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ProxiBlue_CatalogListFilters>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </ProxiBlue_CatalogListFilters>
+    </modules>
+</config>
