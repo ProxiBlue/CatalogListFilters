@@ -16,7 +16,7 @@ class ProxiBlue_CatalogListFilters_Model_Observer {
                 }    
             }
         } catch (Exception $e) {
-            mage::logException($e);
+            Mage::logException($e);
         }
         return $this;
     }
