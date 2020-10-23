@@ -14,14 +14,14 @@
     </global>
     <frontend>
 	<events>
-	    <core_block_abstract_prepare_layout_before>
+	    <core_block_abstract_to_html_before>
 		<observers>
-		    <proxiblue_cataloglistfilters_core_block_abstract_prepare_layout_before>
+		    <proxiblue_cataloglistfilters_core_block_abstract_to_html_before>
 			<class>proxiblue_cataloglistfilters/observer</class>
-			<method>core_block_abstract_prepare_layout_before</method>
-		    </proxiblue_cataloglistfilters_core_block_abstract_prepare_layout_before>
+			<method>core_block_abstract_to_html_before</method>
+		    </proxiblue_cataloglistfilters_core_block_abstract_to_html_before>
 		</observers>
-	    </core_block_abstract_prepare_layout_before>
+	    </core_block_abstract_to_html_before>
 	</events>
     </frontend>
 </config>
