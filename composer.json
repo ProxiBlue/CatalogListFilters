@@ -1,0 +1,15 @@
+{
+    "name": "proxiblue/catalog-list-filters",
+    "license": "GPL-3.0",
+    "type": "magento-module",
+    "description": "Smartly inject product limitation filters into the Catalog Product List Block from CMS and Layouts",
+    "homepage": "https://github.com/ProxiBlue/CatalogListFilters",
+    "authors": [
+        {
+            "name": "ProxiBlue"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
